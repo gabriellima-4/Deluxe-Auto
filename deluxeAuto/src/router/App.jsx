@@ -26,6 +26,8 @@ function App() {
 
         <Route path="/worldmap/eua" Component={}/>
 
+        <Route path="/contato" Component={}/>
+
         <Route path="/conta" Component={}/>
 
         <Route path="/sobre-nos" Component={}/>
