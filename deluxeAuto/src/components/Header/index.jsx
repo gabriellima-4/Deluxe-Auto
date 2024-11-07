@@ -11,12 +11,23 @@ export default function Header(){
             </div>
 
             <div className="container">
-                <p>Estabelecimentos</p>
-                <Link to={"/contato"}/>
-                <p>Nossa História</p>
-                <p>Contatos</p>
-                <p>Classic Showroom</p>
+                
+                <Link to={"/contato"}>
+                    <p>Entre em Contato</p>
+                </Link>
 
+
+                <Link to={"/sobre-nos"}>
+                    <p>Sobre Nós</p>
+                </Link>
+
+                <Link to={"/diamond"}>
+                    <p>Diamond Showroom</p>
+                </Link>
+
+                <Link to={"/conta"}>
+                    <p>Conta</p>
+                </Link>
                 {/* <img id="caminhao" src="https://img.icons8.com/?size=100&id=ejfcITBjGKja&format=png&color=ffffff" width="33px" alt="Cargo Truck"> */}
 
             </div>

@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    color: whitesmoke;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px 30px 15px;
+    font-size: 14px;
+}
+
+.Logo-Site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo-Site img {
+    width: 24px;
+}
+
+.Logo-Site h2 {
+    font-size: 20px;
+}
