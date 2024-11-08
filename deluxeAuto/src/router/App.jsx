@@ -13,7 +13,7 @@ function App() {
 
         <Route path="/worldmap/alemanha" Component={}/>
 
-        <Route path="/worldmap/franca" Component={}/>
+        <Route path="/worldmap/coreia-do-sul" Component={}/>
 
         <Route path="/worldmap/suecia" Component={}/>
 
