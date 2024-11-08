@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import './App.css'
 import Home from "../views/Home"
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
       <Routes>
         <Route path="/" Component={Home}/>
 
-        <Route path="/worldmap" Component={}/>
+        {/* <Route path="/worldmap" Component={}/>
 
         <Route path="/worldmap/italia" Component={}/>
 
@@ -34,7 +33,7 @@ function App() {
 
         <Route path="/diamond/classics" Component={}/>
 
-        <Route path="/diamond/race" Component={}/>
+        <Route path="/diamond/race" Component={}/> */}
 
       </Routes>
     </Router>
