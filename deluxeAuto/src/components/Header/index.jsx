@@ -1,37 +1,39 @@
 import "./styleh.css"
 import {Link} from "react-router-dom"
+import Logo from "../../assets/icons/diamante32.png"
+import Caminhao from "../../assets/icons/caminhao.png"
+
 
 export default function Header(){
     return (
         <>
         <header>
             <div className="Logo-Site">
-                {/* <img src="Icones/icons8-diamante-poly-16.png" alt="Logo"> */}
+                <img src={Logo} alt="" />
                 <h2>Deluxe Auto</h2>
             </div>
 
             <div className="container">
                 
-                <Link to={"/contato"}>
+                <Link to={"/contato"} className="rotas">
                     <p>Entre em Contato</p>
                 </Link>
 
 
-                <Link to={"/sobre-nos"}>
+                <Link to={"/sobre-nos"} className="rotas">
                     <p>Sobre Nós</p>
                 </Link>
 
-                <Link to={"/diamond"}>
+                <Link to={"/diamond"} className="rotas">
                     <p>Diamond Showroom</p>
                 </Link>
 
-                <Link to={"/conta"}>
+                <Link to={"/conta"} className="rotas">
                     <p>Conta</p>
                 </Link>
-                {/* <img id="caminhao" src="https://img.icons8.com/?size=100&id=ejfcITBjGKja&format=png&color=ffffff" width="33px" alt="Cargo Truck"> */}
+                <img id="caminhao" src={Caminhao} width="33px" alt=""/>
 
             </div>
-
 
         </header>
         </>

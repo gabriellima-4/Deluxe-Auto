@@ -6,6 +6,7 @@ export default function LandingComponent(){
         <>
             <section id="Home">
                 <div className="apresentacao">
+                    <h1>Seu sonho sobre rodas... aqui.</h1>
                     <p>
                     Para os que enxergam além do metal e do carbono. Carros são, muitas vezes, sonhos magníficos realizados por meio do mais alto nível e classe de engenharia.
                     <br/>
