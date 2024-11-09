@@ -1,0 +1,33 @@
+section{
+    font-family: Arimo;
+    background-color: black;
+    color:whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 87vh;
+}
+
+.caixa {
+    width: 95vw;
+    text-align: left;
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+#texto{
+    height: 60%;
+    font-size: 19px;
+    padding: 30px;
+    line-height: 27px;
+}
+
+span {
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}

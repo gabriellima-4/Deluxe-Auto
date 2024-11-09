@@ -9,7 +9,10 @@ export default function Header(){
         <>
         <header>
             <div className="Logo-Site">
-                <img src={Logo} alt="" />
+                <Link to={"/"}>
+                    <img src={Logo} alt="" />
+                </Link>
+                
                 <h2>Deluxe Auto</h2>
             </div>
 

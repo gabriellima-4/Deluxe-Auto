@@ -1,11 +1,12 @@
 import "./stylef.css"
+import Logo from "../../assets/icons/diamante32.png"
 
 export default function Footer(){
     return (
         <>
              <footer>
                 <div class="Logo-Site">
-                    {/* <img src="Icones/icons8-diamante-poly-16.png" alt="Logo"> */}
+                    <img src={Logo} alt="" />
                     <h2>Deluxe Auto</h2>
                 </div>
 

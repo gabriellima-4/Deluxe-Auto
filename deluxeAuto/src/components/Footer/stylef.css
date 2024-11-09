@@ -1,0 +1,26 @@
+footer {
+    padding: 15px;
+    background-color: rgb(36, 36, 36);
+    color: whitesmoke;
+
+    font-size: 14px;
+    height: 270px;
+}
+
+.mais-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    line-height: 25px;
+}
+
+.mais-informacoes a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo-nome {
+    margin-left: 14px;
+}

@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from "../views/Home"
+import SobreNosView from "../views/Sobre-Nos"
 
 function App() {
   return (
@@ -25,11 +26,11 @@ function App() {
 
         <Route path="/contato" Component={}/>
 
-        <Route path="/conta" Component={}/>
+        <Route path="/conta" Component={}/> */}
 
-        <Route path="/sobre-nos" Component={}/>
+        <Route path="/sobre-nos" Component={SobreNosView}/>
 
-        <Route path="/diamond" Component={}/>
+        {/* <Route path="/diamond" Component={}/>
 
         <Route path="/diamond/classics" Component={}/>
 
