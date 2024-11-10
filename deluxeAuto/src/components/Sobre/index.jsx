@@ -8,8 +8,9 @@ export default function Sobre(){
                     <h2>Sobre Nós</h2>
                 </div>
                 
+                <p id="destaque"><span>Onde o luxo e a excelência automotiva se encontram.</span></p>
                 <p id="texto">
-                    <span>Onde o luxo e a excelência automotiva se encontram.</span>
+                    
                     <br />
                     Fundada com a missão de redefinir a experiência de compra de carros de alto padrão, a Deluxe Auto oferece uma seleção exclusiva dos veículos mais sofisticados e potentes do mercado global. Nosso compromisso é proporcionar aos nossos clientes uma jornada excepcional desde o primeiro contato até a aquisição de seu veículo de sonho.
                     <br />

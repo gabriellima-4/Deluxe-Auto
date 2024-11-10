@@ -14,7 +14,7 @@ section{
 .caixa {
     width: 95vw;
     text-align: left;
-    font-size: 26px;
+    font-size: 27px;
     padding-bottom: 15px;
 }
 
@@ -22,11 +22,12 @@ section{
     height: 60%;
     font-size: 19px;
     padding: 30px;
-    line-height: 27px;
+    line-height: 32px;
 }
 
-span {
-    font-size: 22px;
+#destaque {
+    width: 96%;
+    font-size: 23px;
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-thickness: 2px;

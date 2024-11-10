@@ -11,7 +11,6 @@ export default function Footer(){
                 </div>
 
                 <div class="mais-informacoes">
-                    <p>Sobre Nós</p>
                     <a href="https://veiculos.fipe.org.br/"><p>Como precificamos nossos carros?</p></a>
                     
                     <p>Política de Privacidade</p>
