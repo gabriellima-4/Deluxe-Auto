@@ -5,10 +5,12 @@ import "./styleWM.css"
 export default function WorldMap(){
     return(
         <>
-        <div className="peido"></div>
-        <Link to={"/worldmap/italia"}>
-            Botaoteste
-        </Link>
+        <div className="peido">
+            <Link to={"/worldmap/italia"}>
+                Botaoteste
+            </Link>
+        </div>
+        
 
         <h2>Selecione um país.</h2>
         </>
