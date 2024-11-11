@@ -21,6 +21,10 @@ export default function WorldMap(){
             <Link to={"/worldmap/japao"}>
                 Japão
             </Link>
+
+            <Link to={"/worldmap/eua"}>
+                Estados Unidos
+            </Link>
         </div>
         
 

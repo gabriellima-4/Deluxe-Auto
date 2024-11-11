@@ -6,6 +6,7 @@ import ShowroomItalia from "../views/Showrooms/Italia"
 import ShowroomCoreia from "../views/Showrooms/Coreia-do-Sul"
 import ShowroomSuecia from "../views/Showrooms/Suecia"
 import ShowroomJapao from "../views/Showrooms/Japao"
+import ShowroomEUA from "../views/Showrooms/EUA"
 
 function App() {
   return (
@@ -27,9 +28,9 @@ function App() {
 
         <Route path="/worldmap/japao" Component={ShowroomJapao}/>
 
-        {/* <Route path="/worldmap/eua" Component={}/>
+        <Route path="/worldmap/eua" Component={ShowroomEUA}/>
 
-        <Route path="/contato" Component={}/>
+        {/* <Route path="/contato" Component={}/>
 
         <Route path="/conta" Component={}/> */}
 

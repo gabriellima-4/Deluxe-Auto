@@ -47,7 +47,7 @@ export default function CarrosSuecia(){
 
                     <div className="Fileira">
                         <div class="Card-carro">
-                                <img className="fotoprincipal" src={Gemera} alt="Volvo XC90"/>
+                                <img className="fotoprincipal" src={Gemera} alt=""/>
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoKoenigsegg} alt=""/>Koenigsegg Gemera</h4>
                                     <div className="Info">
