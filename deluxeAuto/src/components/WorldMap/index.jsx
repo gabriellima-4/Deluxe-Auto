@@ -13,6 +13,10 @@ export default function WorldMap(){
             <Link to={"/worldmap/coreia"}>
                 Coreia do Sul
             </Link>
+
+            <Link to="/worldmap/suecia">
+                Suécia
+            </Link>
         </div>
         
 

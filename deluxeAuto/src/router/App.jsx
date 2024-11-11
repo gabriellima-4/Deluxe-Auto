@@ -4,6 +4,7 @@ import SobreNosView from "../views/Sobre-Nos"
 import MapaMundiView from "../views/MapaMundi"
 import ShowroomItalia from "../views/Showrooms/Italia"
 import ShowroomCoreia from "../views/Showrooms/Coreia-do-Sul"
+import ShowroomSuecia from "../views/Showrooms/Suecia"
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
 
         <Route path="/worldmap/coreia" Component={ShowroomCoreia}/>
 
-        {/* <Route path="/worldmap/suecia" Component={}/>
+        <Route path="/worldmap/suecia" Component={ShowroomSuecia}/>
 
-        <Route path="/worldmap/inglaterra" Component={}/>
+        {/* <Route path="/worldmap/inglaterra" Component={}/>
 
         <Route path="/worldmap/japao" Component={}/>
 

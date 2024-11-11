@@ -33,7 +33,7 @@ export default function CarrosCoreia(){
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoHyundai} alt=""/>Hyundai IONIQ5 Signature</h4>
                                     <div className="Info">
-                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>84Kwh - 365cv | Elétrico</p>
+                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>84kWh - 365cv | Elétrico</p>
                                         <p><img src={Marcha} alt="Câmbio"/>AT</p>
                                         <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>Titan Gray</p>
                                     </div>
