@@ -5,6 +5,7 @@ import MapaMundiView from "../views/MapaMundi"
 import ShowroomItalia from "../views/Showrooms/Italia"
 import ShowroomCoreia from "../views/Showrooms/Coreia-do-Sul"
 import ShowroomSuecia from "../views/Showrooms/Suecia"
+import ShowroomJapao from "../views/Showrooms/Japao"
 
 function App() {
   return (
@@ -22,11 +23,11 @@ function App() {
 
         <Route path="/worldmap/suecia" Component={ShowroomSuecia}/>
 
-        {/* <Route path="/worldmap/inglaterra" Component={}/>
+        {/* <Route path="/worldmap/inglaterra" Component={}/> */}
 
-        <Route path="/worldmap/japao" Component={}/>
+        <Route path="/worldmap/japao" Component={ShowroomJapao}/>
 
-        <Route path="/worldmap/eua" Component={}/>
+        {/* <Route path="/worldmap/eua" Component={}/>
 
         <Route path="/contato" Component={}/>
 
