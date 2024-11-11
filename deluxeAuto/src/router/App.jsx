@@ -3,6 +3,7 @@ import Home from "../views/Home"
 import SobreNosView from "../views/Sobre-Nos"
 import MapaMundiView from "../views/MapaMundi"
 import ShowroomItalia from "../views/Showrooms/Italia"
+import ShowroomCoreia from "../views/Showrooms/Coreia-do-Sul"
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
 
         <Route path="/worldmap/italia" Component={ShowroomItalia}/>
 
-        {/* <Route path="/worldmap/alemanha" Component={}/>
+        {/* <Route path="/worldmap/alemanha" Component={}/> */}
 
-        <Route path="/worldmap/coreia-do-sul" Component={}/>
+        <Route path="/worldmap/coreia" Component={ShowroomCoreia}/>
 
-        <Route path="/worldmap/suecia" Component={}/>
+        {/* <Route path="/worldmap/suecia" Component={}/>
 
         <Route path="/worldmap/inglaterra" Component={}/>
 

@@ -7,7 +7,11 @@ export default function WorldMap(){
         <>
         <div className="peido">
             <Link to={"/worldmap/italia"}>
-                Botaoteste
+                Italia
+            </Link>
+
+            <Link to={"/worldmap/coreia"}>
+                Coreia do Sul
             </Link>
         </div>
         
