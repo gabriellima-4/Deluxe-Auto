@@ -25,6 +25,10 @@ export default function WorldMap(){
             <Link to={"/worldmap/eua"}>
                 Estados Unidos
             </Link>
+
+            <Link to={"/worldmap/inglaterra"}>
+                Inglaterra
+            </Link>
         </div>
         
 
