@@ -46,6 +46,7 @@
 #email,
 #senha,
 .entrarConta input {
+    color: whitesmoke;
     width: 18rem;
     height: 2rem;
     margin-bottom: 15px;
