@@ -9,6 +9,7 @@ import ShowroomJapao from "../views/Showrooms/Japao"
 import ShowroomEUA from "../views/Showrooms/EUA"
 import ShowroomInglaterra from "../views/Showrooms/Inglaterra"
 import ShowroomAlemanha from '../views/Showrooms/Alemanha'
+import ViewConta from "../views/Conta"
 
 function App() {
   return (
@@ -32,9 +33,9 @@ function App() {
 
         <Route path="/worldmap/eua" Component={ShowroomEUA}/>
 
-        {/* <Route path="/contato" Component={}/>
+        {/* <Route path="/contato" Component={}/> */}
 
-        <Route path="/conta" Component={}/> */}
+        <Route path="/conta" Component={ViewConta}/>
 
         <Route path="/sobre-nos" Component={SobreNosView}/>
 
