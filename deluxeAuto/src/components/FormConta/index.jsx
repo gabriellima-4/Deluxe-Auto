@@ -21,7 +21,7 @@ export default function FormConta(){
                                 <p>Quero receber emails sobre novidades da loja.</p>
                             </div>
 
-                            <button type="submit">Criar Conta</button>
+                            <button id="botaoCriar" type="submit">Criar Conta</button>
                         </form>
                     </div>
 
@@ -35,7 +35,7 @@ export default function FormConta(){
                         <input type="password" placeholder="Senha"/>
                         <p>Esqueci minha senha</p>
 
-                        <button>Fazer Login</button>
+                        <button id="botaoLogin">Fazer Login</button>
                     </div>
                 </div>
             </section>

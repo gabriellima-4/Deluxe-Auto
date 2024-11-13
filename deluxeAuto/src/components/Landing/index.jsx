@@ -18,7 +18,7 @@ export default function LandingComponent(){
                     <img src="https://media.astonmartin.com/wp-content/uploads/2023/06/a86e24a5d912249fa0e2c6537bb153a7-1500x791.jpg" width="700px" alt="CARRO"></img>
 
                     <Link to={"/worldmap"}>
-                        <button>Conferir</button>
+                        <button id="conferir">Conferir</button>
                     </Link>
                 </div>
             </section>

@@ -32,7 +32,7 @@
     font-size: 30px;
 }
 
-button {
+#conferir {
     width: 6rem;
     height: 2.8rem;
     background-color: black;
@@ -42,7 +42,7 @@ button {
     border-radius: 15px;
 }
 
-button:hover {
-    background-color: rgba(255, 0, 0, 0.771);
+#conferir:hover {
+    background-color: rgba(255, 0, 0, 0.6);
     transition: 0.6s ease-in-out;
 }

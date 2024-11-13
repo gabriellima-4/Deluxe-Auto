@@ -10,6 +10,7 @@ import ShowroomEUA from "../views/Showrooms/EUA"
 import ShowroomInglaterra from "../views/Showrooms/Inglaterra"
 import ShowroomAlemanha from '../views/Showrooms/Alemanha'
 import ViewConta from "../views/Conta"
+import MenuDiamond from "../views/Diamond/Menu"
 
 function App() {
   return (
@@ -39,9 +40,9 @@ function App() {
 
         <Route path="/sobre-nos" Component={SobreNosView}/>
 
-        {/* <Route path="/diamond" Component={}/>
+        <Route path="/diamond" Component={MenuDiamond}/>
 
-        <Route path="/diamond/classics" Component={}/>
+        {/* <Route path="/diamond/classics" Component={}/>
 
         <Route path="/diamond/race" Component={}/> */}
 
