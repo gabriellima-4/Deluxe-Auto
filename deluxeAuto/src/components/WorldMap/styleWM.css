@@ -1,3 +1,13 @@
+.Mapa{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+}
+
 .peido {
     background-color: beige;
 }
