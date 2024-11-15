@@ -19,19 +19,19 @@ export default function Diamond(){
                 <div className="fileiraOpcoes">
                     <div className="secaoClassics">
                         <Link to={"/diamond/classics"} className="rota">
-                            <img src="https://storage.googleapis.com/car-silhouette-1/Ferrari/Ferrari%20Dino%20246%20GT-03-min.png" width="550px" alt="" />
-                            
+                            <img src="https://storage.googleapis.com/car-silhouette-1/Ferrari/Ferrari%20Dino%20246%20GT-03-min.png" width="500px" alt="" />
+                            <h2 id="tituloClassics">Classics</h2>
                         </Link>
-                        <h2 id="tituloClassics">Classics</h2>
+
                     </div>
 
 
                     <div className="secaoRace">
                         <Link to={"/diamond/race"} className="rota">
-                            <img src="https://storage.googleapis.com/car-silhouette-1/Mercedes-Benz/Mercedes-AMG%20GT%20Black%20Series%20(C190)-12.png" width="550px" alt="" />
-                            
+                            <img src="https://storage.googleapis.com/car-silhouette-1/Mercedes-Benz/Mercedes-AMG%20GT%20Black%20Series%20(C190)-12.png" width="500px" alt="" />
+                            <h2 id="tituloRace">Race</h2>
                         </Link>
-                        <h2 id="tituloRace">Race</h2>
+
                     </div>
                 </div>
 
