@@ -1,4 +1,4 @@
-import { ComposableMap, Geographies, Geography, Marker, Sphere, Graticule } from "react-simple-maps"
+import { ComposableMap, Geographies, Geography, Marker, Sphere, Graticule, Line } from "react-simple-maps"
 import { Link } from "react-router-dom"
 import "./styleWM.css"
 
@@ -33,12 +33,41 @@ export default function WorldMap(){
                             ))
                         }
                     </Geographies>
+                    {/* Estados Unidos */}
                     <Marker coordinates={[-82.000, 38.000]}>
                         <Link to={"/worldmap/eua"}>
                             <circle r={10} fill="#ddd" strokeWidth={2}/>
                             <image href="https://img.icons8.com/?size=100&id=fIgZUHgwc76e&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
                         </Link>
                     </Marker>
+
+                    {/* Japão */}
+                    <Marker coordinates={[149.000, 38.000]}>
+                        <Link to={"/worldmap/japao"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=FeSjxToMjcoN&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
+
+                    {/* Coréia do Sul */}
+                    <Line from={[127.200, 35.500]} to={[134.000, 22.500]} stroke="#f5f5f5" strokeWidth={1} strokeLinecap="round"/>
+
+                    <Marker coordinates={[138.500, 23.000]}>
+                        <Link to={"/worldmap/coreia"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=SsulSeBd6i35&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
+
+                    {/* Suécia */}
+                    <Marker coordinates={[8.600, 69.000]}>
+                        <Link to={"/worldmap/suecia"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=okwiiuyBlETw&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
+
+                    
                 </ComposableMap>
             </div>
             

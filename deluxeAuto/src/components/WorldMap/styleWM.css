@@ -9,5 +9,6 @@
 }
 
 .peido {
+    display: none;
     background-color: beige;
 }
