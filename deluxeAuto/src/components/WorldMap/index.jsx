@@ -14,26 +14,32 @@ export default function WorldMap(){
     return(
         <>
             <div className="Mapa">
-            <ComposableMap projectionConfig={{rotate:[-10, 0, 0], scale: 147}} fill="#f5f5f5">
-                <Sphere stroke="#555" strokeWidth={0.2}/>
-                <Graticule stroke="#555" strokeWidth={0.2}/>
-                
-                <Geographies geography={geoUrl}>
-                    {({ geographies }) =>
-                        geographies.map((geo) => (
-                            <Geography 
-                                key={geo.rsmKey} 
-                                geography={geo}
-                                style={{
-                                    default: {fill: paises.includes(geo.id) ? "red" : "darkgray"},
-                                    hover: { fill: paises.includes(geo.id) ? "darkred" : "darkblue"},
-                                    pressed: {fill: "#ff047f"}
-                                }}
-                            />
-                        ))
-                    }
-                </Geographies>
-            </ComposableMap>
+                <ComposableMap projectionConfig={{rotate:[-10, 0, 0], scale: 147}} fill="#f5f5f5">
+                    <Sphere stroke="#aaa" strokeWidth={0.2}/>
+                    <Graticule stroke="#aaa" strokeWidth={0.2}/>
+                    
+                    <Geographies geography={geoUrl}>
+                        {({ geographies }) =>
+                            geographies.map((geo) => (
+                                <Geography 
+                                    key={geo.rsmKey} 
+                                    geography={geo}
+                                    style={{
+                                        default: {fill: paises.includes(geo.id) ? "#d80000" : "#f5f5f5"},
+                                        hover: { fill: paises.includes(geo.id) ? "red" : "#606060"},
+                                        pressed: {fill: "#"}
+                                    }}
+                                />
+                            ))
+                        }
+                    </Geographies>
+                    <Marker coordinates={[-82.000, 38.000]}>
+                        <Link to={"/worldmap/eua"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=fIgZUHgwc76e&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
+                </ComposableMap>
             </div>
             
 
