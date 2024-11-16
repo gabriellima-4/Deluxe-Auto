@@ -12,6 +12,7 @@ import ShowroomAlemanha from '../views/Showrooms/Alemanha'
 import ViewConta from "../views/Conta"
 import MenuDiamond from "../views/Diamond/Menu"
 import ShowroomClassic from "../views/Showrooms/Classic"
+import ShowroomRace from "../views/Showrooms/Race"
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
 
         <Route path="/diamond/classics" Component={ShowroomClassic}/>
 
-        {/* <Route path="/diamond/race" Component={}/> */}
+        <Route path="/diamond/race" Component={ShowroomRace}/>
 
       </Routes>
     </Router>
