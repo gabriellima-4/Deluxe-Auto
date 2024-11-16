@@ -12,3 +12,9 @@
     display: none;
     background-color: beige;
 }
+
+#selecione{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 26px;
+}

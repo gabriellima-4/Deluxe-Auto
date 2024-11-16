@@ -67,25 +67,24 @@ export default function WorldMap(){
                         </Link>
                     </Marker>
 
-                    
+                    {/* Inglaterra */}
+                    <Marker coordinates={[-12.000, 54.000]}>
+                        <Link to={"/worldmap/inglaterra"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=ShNNs7i8tXQF&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
+
+                    {/* Itália */}
+                    <Marker coordinates={[21.000, 34.900]}>
+                        <Link to={"/worldmap/italia"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=WmOfu4e7Rvp7&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
                 </ComposableMap>
             </div>
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -128,7 +127,7 @@ export default function WorldMap(){
         </div>
         
 
-        <h2>Selecione um país.</h2>
+        <h2 id="selecione">Selecione um país.</h2>
         </>
     )
 }
