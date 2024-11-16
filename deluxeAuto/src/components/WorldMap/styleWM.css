@@ -14,7 +14,9 @@
 }
 
 #selecione{
+    height: 10vh;
     background-color: black;
     color: whitesmoke;
-    font-size: 26px;
+    font-size: 30px;
+    text-align: center;
 }

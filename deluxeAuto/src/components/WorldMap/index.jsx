@@ -15,8 +15,8 @@ export default function WorldMap(){
         <>
             <div className="Mapa">
                 <ComposableMap projectionConfig={{rotate:[-10, 0, 0], scale: 147}} fill="#f5f5f5">
-                    <Sphere stroke="#aaa" strokeWidth={0.2}/>
-                    <Graticule stroke="#aaa" strokeWidth={0.2}/>
+                    <Sphere stroke="#aaa" strokeWidth={0.3}/>
+                    <Graticule stroke="#aaa" strokeWidth={0.3}/>
                     
                     <Geographies geography={geoUrl}>
                         {({ geographies }) =>
@@ -50,7 +50,7 @@ export default function WorldMap(){
                     </Marker>
 
                     {/* Coréia do Sul */}
-                    <Line from={[127.200, 35.500]} to={[134.000, 22.500]} stroke="#f5f5f5" strokeWidth={1} strokeLinecap="round"/>
+                    <Line from={[127.200, 35.500]} to={[134.000, 22.300]} stroke="#f5f5f5" strokeWidth={1.5} strokeLinecap="round"/>
 
                     <Marker coordinates={[138.500, 23.000]}>
                         <Link to={"/worldmap/coreia"}>
@@ -82,49 +82,48 @@ export default function WorldMap(){
                             <image href="https://img.icons8.com/?size=100&id=WmOfu4e7Rvp7&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
                         </Link>
                     </Marker>
+
+                    {/* Alemanha */}
+                    <Line from={[9.700, 51.000]} to={[-16.000, 41.500]} stroke="#ffd000" strokeWidth={1.5} strokeLinecap="round"/>
+
+                    <Marker coordinates={[-18.000, 43.000]}>
+                        <Link to={"/worldmap/alemanha"}>
+                            <circle r={10} fill="#ddd" strokeWidth={2}/>
+                            <image href="https://img.icons8.com/?size=100&id=vRrbNnaD93Ys&format=png&color=000000" x="-10" y="-10" width="20" height="20"/>
+                        </Link>
+                    </Marker>
                 </ComposableMap>
             </div>
-            
 
+            <div className="peido">
+                <Link to={"/worldmap/italia"}>
+                    Italia
+                </Link>
 
+                <Link to={"/worldmap/coreia"}>
+                    Coreia do Sul
+                </Link>
 
+                <Link to={"/worldmap/suecia"}>
+                    Suécia
+                </Link>
 
+                <Link to={"/worldmap/japao"}>
+                    Japão
+                </Link>
 
+                <Link to={"/worldmap/eua"}>
+                    Estados Unidos
+                </Link>
 
+                <Link to={"/worldmap/inglaterra"}>
+                    Inglaterra
+                </Link>
 
-
-
-
-
-        <div className="peido">
-            <Link to={"/worldmap/italia"}>
-                Italia
-            </Link>
-
-            <Link to={"/worldmap/coreia"}>
-                Coreia do Sul
-            </Link>
-
-            <Link to={"/worldmap/suecia"}>
-                Suécia
-            </Link>
-
-            <Link to={"/worldmap/japao"}>
-                Japão
-            </Link>
-
-            <Link to={"/worldmap/eua"}>
-                Estados Unidos
-            </Link>
-
-            <Link to={"/worldmap/inglaterra"}>
-                Inglaterra
-            </Link>
-
-            <Link to={"/worldmap/alemanha"}>
-                Alemanha
-            </Link>
-        </div>
+                <Link to={"/worldmap/alemanha"}>
+                    Alemanha
+                </Link>
+            </div>
         
 
         <h2 id="selecione">Selecione um país.</h2>
