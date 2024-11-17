@@ -17,7 +17,7 @@ export default function CarrosCorrida(){
                             <div class="Card-carro-corrida">
                                 <img className="fotoprincipal" src={MR02} alt=""/>
                                 <div className="Container">
-                                    <h4 className="logo-nome" ><img src={LogoMarussia} alt=""/>Marussia MR02 - 2013 #22</h4>
+                                    <h4 className="logo-nome" ><img src={LogoMarussia} alt=""/>Marussia MR02 (2013) - #22</h4>
                                     <div className="Info">
                                         <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>750cv | 2.4L V8</p>
                                         <p><img src={Marcha} alt="Câmbio"/>AT|MT 7 Marchas</p>
@@ -30,7 +30,7 @@ export default function CarrosCorrida(){
                             <div class="Card-carro-corrida">
                                 <img className="fotoprincipal" src={CorvetteC6}  alt=""/>
                                 <div className="Container">
-                                    <h4 className="logo-nome" ><img src={LogoChevy} alt=""/>Chevrolet Corvette C6.R #3</h4>
+                                    <h4 className="logo-nome" ><img src={LogoChevy} alt=""/>Chevrolet Corvette C6.R (2007) - #3</h4>
                                     <div className="Info">
                                         <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>590cv | 7.0L V8</p>
                                         <p><img src={Marcha} alt="Câmbio"/>MT 6 Marchas</p>

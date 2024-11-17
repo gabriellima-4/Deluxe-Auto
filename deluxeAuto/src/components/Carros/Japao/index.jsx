@@ -34,7 +34,7 @@ export default function CarrosJapao(){
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoLexus} alt=""/>Lexus ES300h</h4>
                                     <div className="Info">
-                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>211cv | 2.5L Híbrido</p>
+                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>211cv | 2.5L I4 Híbrido</p>
                                         <p><img src={Marcha} alt="Câmbio"/>AT</p>
                                         <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>Preto Grafite</p>
                                     </div>
@@ -47,11 +47,11 @@ export default function CarrosJapao(){
                         <div class="Card-carro">
                                 <img className="fotoprincipal" src={GTR} alt=""/>
                                 <div className="Container">
-                                    <h4 className="logo-nome" ><img src={LogoNissan} alt=""/>Nissan GT-R Premium T-Spec</h4>
+                                    <h4 className="logo-nome" ><img src={LogoNissan} alt=""/>Nissan GT-R Premium T-Spec (2025)</h4>
                                     <div className="Info">
                                         <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>565cv | 3.8L V6</p>
                                         <p><img src={Marcha} alt="Câmbio"/>AT 6 Marchas</p>
-                                        <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>Millenium Jade</p>
+                                        <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>Millennium Jade</p>
                                     </div>
                                     <h4 class="preco">R$ 1.500.000,00</h4>
                                 </div>

@@ -51,7 +51,7 @@ export default function CarrosSuecia(){
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoKoenigsegg} alt=""/>Koenigsegg Gemera</h4>
                                     <div className="Info">
-                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>2300cv | 5.0L Híbrido</p>
+                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>2300cv | 5.0L V8 Híbrido</p>
                                         <p><img src={Marcha} alt="Câmbio"/>AT 9 Marchas</p>
                                         <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>Ash Grey</p>
                                     </div>

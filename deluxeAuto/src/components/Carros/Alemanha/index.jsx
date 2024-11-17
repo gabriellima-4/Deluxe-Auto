@@ -114,7 +114,7 @@ export default function CarrosAlemanha(){
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoPorsche} alt=""/>Porsche 718 Cayman GTS</h4>
                                     <div className="Info">
-                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>400cv | 4.0L Boxer6</p>
+                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>400cv | 4.0L Boxer 6</p>
                                         <p><img src={Marcha} alt="Câmbio"/>MT 6 Marchas</p>
                                         <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>GT Silver Metallic</p>
                                     </div>
@@ -127,7 +127,7 @@ export default function CarrosAlemanha(){
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoPorsche} alt=""/>Porsche 911 Turbo S Coupé</h4>
                                     <div className="Info">
-                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>650cv | 3.7L Boxer6</p>
+                                        <p><img src="https://img.icons8.com/?size=100&id=zPV5akQ5KlKf&format=png&color=000000" alt="Motor" width="16px"/>650cv | 3.7L Boxer 6</p>
                                         <p><img src={Marcha} alt="Câmbio"/>PDK 8 Marchas</p>
                                         <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>GT Silver Metallic</p>
                                     </div>
