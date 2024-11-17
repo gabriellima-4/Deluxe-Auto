@@ -9,12 +9,12 @@ export default function CarrosClassicos(){
     return(
         <>
             <section id="Showroom">
-                <div className="paisBandeira">
+                <div className="titulosecao">
                     <h2>Classics</h2>
                 </div>
 
                     <div className="Fileira">
-                            <div class="Card-carro">
+                            <div class="Card-carro-classic">
                                 <img className="fotoprincipal" src={F1} alt=""/>
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoMcLaren} alt=""/>McLaren F1 (Chassis #060) - 1997</h4>
@@ -29,7 +29,7 @@ export default function CarrosClassicos(){
                                 </div>
                             </div>
 
-                            <div class="Card-carro">
+                            <div class="Card-carro-classic">
                                 <img className="fotoprincipal" src={GT1}  alt=""/>
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoPorsche} alt=""/>Porsche 911 GT1 Strassenversion - 1998</h4>

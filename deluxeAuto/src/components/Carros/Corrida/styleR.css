@@ -6,7 +6,7 @@
     height: max-content;
 }
 
-.paisBandeira{
+.titulopagina{
     margin-top: 30px;
     color: black;
     display: flex;
@@ -15,16 +15,13 @@
     align-items: center;
 }
 
-.paisBandeira h2{
+.titulopagina h2{
     font-family: Tomorrow;
     font-size: 30px;
     font-style: italic;
     text-decoration: underline black;
 }
 
-.paisBandeira img{
-    width: 32px;
-}
 
 .Fileira{
     display: flex;
@@ -35,7 +32,7 @@
     margin-bottom: 40px;
 }
 
-.Card-carro{
+.Card-carro-corrida{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +43,7 @@
     border-radius: 18px;
 }
 
-.Card-carro:hover{
+.Card-carro-corrida:hover{
     box-shadow: 1px 1px 3px 2px rgba(16, 81, 172, 0.9);
     transition: 0.7s ease;
 }

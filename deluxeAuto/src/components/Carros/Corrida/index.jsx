@@ -9,12 +9,12 @@ export default function CarrosCorrida(){
     return(
         <>
             <section id="Showroom">
-                <div className="paisBandeira">
+                <div className="titulopagina">
                     <h2>Race</h2>
                 </div>
 
                     <div className="Fileira">
-                            <div class="Card-carro">
+                            <div class="Card-carro-corrida">
                                 <img className="fotoprincipal" src={MR02} alt=""/>
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoMarussia} alt=""/>Marussia MR02 - 2013 #22</h4>
@@ -27,7 +27,7 @@ export default function CarrosCorrida(){
                                 </div>
                             </div>
 
-                            <div class="Card-carro">
+                            <div class="Card-carro-corrida">
                                 <img className="fotoprincipal" src={CorvetteC6}  alt=""/>
                                 <div className="Container">
                                     <h4 className="logo-nome" ><img src={LogoChevy} alt=""/>Chevrolet Corvette C6.R #3</h4>

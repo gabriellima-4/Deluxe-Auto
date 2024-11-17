@@ -6,7 +6,7 @@
     height: max-content;
 }
 
-.paisBandeira{
+.titulosecao{
     margin-top: 30px;
     color: black;
     display: flex;
@@ -15,15 +15,11 @@
     align-items: center;
 }
 
-.paisBandeira h2{
+.titulosecao h2{
     font-family: Lobster;
     font-size: 30px;
     font-style: italic;
     text-decoration: underline black;
-}
-
-.paisBandeira img{
-    width: 32px;
 }
 
 .Fileira{
@@ -35,7 +31,7 @@
     margin-bottom: 40px;
 }
 
-.Card-carro{
+.Card-carro-classic{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +42,7 @@
     border-radius: 18px;
 }
 
-.Card-carro:hover{
+.Card-carro-classic:hover{
     box-shadow: 1px 1px 3px 2px rgba(212, 175, 55, 0.8);
     transition: 0.7s ease;
 }
