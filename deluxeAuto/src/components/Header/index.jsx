@@ -22,7 +22,6 @@ export default function Header(){
                     <p>Entre em Contato</p>
                 </Link>
 
-
                 <Link to={"/sobre-nos"} className="rotas">
                     <p>Sobre Nós</p>
                 </Link>

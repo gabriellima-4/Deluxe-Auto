@@ -47,3 +47,22 @@ header {
     text-decoration-color: red;
     transition: 0.5s; 
 }
+
+/* /////////////// */
+/* Responsividade */
+/* ///////////// */
+
+@media screen and (max-width: 550px) and (max-height: 950px) {
+    header{
+        font-size: 9px;
+        padding: 7px 15px 20px 12px;
+    }
+
+    .Logo-Site h2{
+        font-size: 16px;
+    }
+
+    #caminhao{
+        display: none;
+    }
+}

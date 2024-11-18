@@ -1,7 +1,4 @@
-
-
 #Home {
-    
     background-color: black;
     color: whitesmoke;
     
@@ -45,4 +42,27 @@
 #conferir:hover {
     background-color: rgba(255, 0, 0, 0.6);
     transition: 0.6s ease-in-out;
+}
+
+/* /////////////// */
+/* Responsividade */
+/* ///////////// */
+
+@media screen and (max-width: 550px) and (max-height: 950px) {    
+    #Home{
+        width: 100vw;
+    }
+
+    .apresentacao img {
+        width: 90vw;
+    }
+
+    .apresentacao h1{
+        font-size: 27px;
+    }
+
+    .apresentacao p {
+        font-size: 14px;
+        max-width: 90%;
+    }
 }
