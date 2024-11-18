@@ -1,5 +1,5 @@
 import "./styleCT.css"
-import { ComposableMap, Geographies, Geography, Marker, Sphere, Graticule} from "react-simple-maps"
+import { ComposableMap, Geographies, Geography, Marker} from "react-simple-maps"
 
 const geoUrl = "https://raw.githubusercontent.com/gabriellima-4/mapa-brasil-data/refs/heads/main/brazil-states.json"
 
@@ -16,7 +16,7 @@ export default function Contatos(){
                                 {({ geographies }) =>
                                     geographies.map((geo) => (
                                         <Geography key={geo.rsmKey} geography={geo}
-                                        style={{default: { fill: "#D6D6DA", outline: "none" },
+                                        style={{default: { fill: "#f5f5f5", outline: "none" },
                                         hover: { fill: "#aaa", outline: "none" },
                                         pressed: { fill: "#777", outline: "none" }}}/>
                                     ))
@@ -42,6 +42,38 @@ export default function Contatos(){
                                 <image href="https://img.icons8.com/?size=100&id=7880&format=png&color=d80000" x="-10" y="-10" width="30" height="30"/>
                             </Marker>
                         </ComposableMap>
+                    </div>
+
+
+
+                    <div className="informacoes">
+                        <h2>Nossos estabelecimentos físicos</h2>
+
+                        <div className="local">
+                            <h3>Brasília (DF)</h3>
+                            <p>Telefone: (61) 9xxxx-xxxx</p>
+                        </div>
+
+                        <div className="local">
+                            <h3>São Paulo (SP)</h3>
+                            <p>Telefone: (11) 9xxxx-xxxx</p>
+                        </div>
+
+                        <div className="local">
+                            <h3>Teresina (PI)</h3>
+                            <p>Telefone: (86)xxxx-xxxx</p>
+                        </div>
+
+                        <div className="local">
+                            <h3>Balneário Camboriú (SC)</h3>
+                            <p>Telefone: (48)xxxx-xxxx</p>
+                        </div>
+
+                        <div className="gerais">
+                            <h4>Informações Gerais</h4>
+                            <p id="email-institucional">contato@deluxeauto.com</p>
+                            <p id="react">Site feito em: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/></p>
+                        </div>
                     </div>
                 </div>
             </section>
