@@ -52,7 +52,7 @@ header {
 /* Responsividade */
 /* ///////////// */
 
-@media screen and (max-width: 550px) and (max-height: 950px) {
+@media screen and (max-width: 650px) and (max-height: 950px) {
     header{
         font-size: 9px;
         padding: 7px 15px 20px 12px;

@@ -87,3 +87,41 @@
     font-style: italic;
     color: whitesmoke;
 }
+
+
+/* /////////////// */
+/* Responsividade */
+/* ///////////// */
+
+@media screen and (max-width: 1050px) and (max-height: 950px) {
+    /* #menu{
+        max-height: 100vh;
+    } */
+    
+    .botaoVoltar{
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .fileiraOpcoes{
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .secaoClassics, .secaoRace{
+        opacity: 1;
+        width: 85%;
+        height: 45%;
+    }
+
+    .secaoClassics img, .secaoRace img{
+        max-width: 240px;
+    }
+
+    #tituloClassics, #tituloRace{
+        font-size: 35px;
+    }
+
+}
