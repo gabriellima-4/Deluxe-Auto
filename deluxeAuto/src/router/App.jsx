@@ -13,6 +13,7 @@ import ViewConta from "../views/Conta"
 import MenuDiamond from "../views/Diamond/Menu"
 import ShowroomClassic from "../views/Showrooms/Classic"
 import ShowroomRace from "../views/Showrooms/Race"
+import ViewContato from "../views/Contato"
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
 
         <Route path="/worldmap/eua" Component={ShowroomEUA}/>
 
-        {/* <Route path="/contato" Component={}/> */}
+        <Route path="/contato" Component={ViewContato}/>
 
         <Route path="/conta" Component={ViewConta}/>
 
