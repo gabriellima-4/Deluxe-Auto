@@ -1,3 +1,5 @@
+/* Arquivo de css geral para os showrooms */
+
 #Showroom{
     background-color: white;
     color: black;
@@ -82,4 +84,48 @@
 
 .preco{
     text-align: center;
+}
+
+.alerta{
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+}
+
+
+/* /////////////// */
+/* Responsividade */
+/* ///////////// */
+
+@media screen and (max-width: 600px) and (max-height: 960px) {
+    .Fileira{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    .Card-carro{
+        width: 93%;
+        height: 36rem;
+    }
+
+    .Info{
+        font-size: 11px;
+        margin-bottom: 10px;
+        width: 98%;
+    }
+
+    .fotoprincipal{
+        width: 70%;
+    }
+
+    .Info img{
+        width: 21px;
+        margin-right: 6px;
+    }
+
 }

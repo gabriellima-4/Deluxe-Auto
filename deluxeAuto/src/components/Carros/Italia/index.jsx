@@ -1,4 +1,4 @@
-import "./styleIT.css"
+import "../style.css"
 import LogoFerrari from "../../../assets/logos/ferrari.png"
 import LogoLambo from "../../../assets/logos/Lamborghini.jpg"
 import LogoMaserati from "../../../assets/logos/Maserati.png"
@@ -29,7 +29,7 @@ export default function CarrosItalia(){
                                     <p><img src={Marcha} alt="Câmbio"/>AT 8 Marchas</p>
                                     <p><img src="https://img.icons8.com/?size=100&id=25945&format=png&color=000000" width="16px" alt="Paleta Cor"/>Rosso Corsa</p>
                                 </div>
-                                <h4 class="preco">R$ 3.600.000,00</h4>
+                                <h4 className="preco">R$ 3.600.000,00</h4>
                             </div>
                         </div>
 

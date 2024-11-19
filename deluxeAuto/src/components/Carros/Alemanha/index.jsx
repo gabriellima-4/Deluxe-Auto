@@ -1,3 +1,4 @@
+import "../style.css"
 import Marcha from "../../../assets/icons/marcha.png"
 import LogoBMW from "../../../assets/logos/BMW.webp"
 import LogoAudi from "../../../assets/logos/Audi.webp"

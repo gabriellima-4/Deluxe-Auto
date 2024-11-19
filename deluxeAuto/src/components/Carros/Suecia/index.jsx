@@ -1,4 +1,4 @@
-import "./styleSUE.css"
+import "../style.css"
 import Marcha from "../../../assets/icons/marcha.png"
 import LogoKoenigsegg from "../../../assets/logos/koenigsegg.png"
 import LogoVolvo from "../../../assets/logos/volvo.png"

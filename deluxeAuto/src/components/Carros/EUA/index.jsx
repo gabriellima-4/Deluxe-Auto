@@ -1,3 +1,4 @@
+import "../style.css"
 import Marcha from "../../../assets/icons/marcha.png"
 import LogoChevy from "../../../assets/logos/chevrolet.png"
 import LogoFord from "../../../assets/logos/Ford.png"

@@ -1,4 +1,4 @@
-import "./styleCS.css"
+import "../style.css"
 import Marcha from "../../../assets/icons/marcha.png"
 import LogoHyundai from "../../../assets/logos/hyundai.png"
 import Palisade from "../../../assets/images/normal/Palisade.jpeg"
