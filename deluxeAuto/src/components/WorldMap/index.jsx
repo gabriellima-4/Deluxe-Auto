@@ -95,37 +95,70 @@ export default function WorldMap(){
                 </ComposableMap>
             </div>
 
-            <div className="peido">
-                <Link to={"/worldmap/italia"}>
-                    Italia
-                </Link>
 
-                <Link to={"/worldmap/coreia"}>
-                    Coreia do Sul
-                </Link>
+            {/* Separação entre desktop view e mobile view */}
 
-                <Link to={"/worldmap/suecia"}>
-                    Suécia
-                </Link>
 
-                <Link to={"/worldmap/japao"}>
-                    Japão
-                </Link>
+            <div className="div-responsiva">
+                <div className="dois-paises">
+                    <div className="pais">
+                        <Link to={"/worldmap/italia"}>
+                            <img src="https://img.icons8.com/?size=100&id=WmOfu4e7Rvp7&format=png&color=000000" alt="" />
+                            <p>Itália</p>
+                        </Link>
+                    </div>
+                    
+                    <div className="pais">
+                        <Link to={"/worldmap/alemanha"}>
+                            <img src="https://img.icons8.com/?size=100&id=vRrbNnaD93Ys&format=png&color=000000" alt="" />
+                            <p>Alemanha</p>
+                        </Link>
+                    </div>
+                </div>
 
-                <Link to={"/worldmap/eua"}>
-                    Estados Unidos
-                </Link>
+                <div className="dois-paises">
+                    <div className="pais">
+                        <Link to={"/worldmap/inglaterra"}>
+                            <img src="https://img.icons8.com/?size=100&id=ShNNs7i8tXQF&format=png&color=000000" alt="" />
+                            <p>Inglaterra</p>
+                        </Link>
+                    </div>
+                    
+                    <div className="pais">
+                        <Link to={"/worldmap/eua"}>
+                            <img src="https://img.icons8.com/?size=100&id=fIgZUHgwc76e&format=png&color=000000" alt="" />
+                            <p>Estados Unidos</p>
+                        </Link>
+                    </div>
+                </div>
 
-                <Link to={"/worldmap/inglaterra"}>
-                    Inglaterra
-                </Link>
+                <div className="dois-paises">
+                    <div className="pais">
+                        <Link to={"/worldmap/suecia"}>
+                            <img src="https://img.icons8.com/?size=100&id=okwiiuyBlETw&format=png&color=000000" alt="" />
+                            <p>Suécia</p>
+                        </Link>
+                    </div>
+                    
+                    <div className="pais">
+                        <Link to={"/worldmap/japao"}>
+                            <img src="https://img.icons8.com/?size=100&id=FeSjxToMjcoN&format=png&color=000000" alt="" />
+                            <p>Japão</p>
+                        </Link>
+                    </div>
+                </div>
 
-                <Link to={"/worldmap/alemanha"}>
-                    Alemanha
-                </Link>
+                <div className="dois-paises">
+                    <div className="pais">
+                        <Link to={"/worldmap/coreia"}>
+                            <img src="https://img.icons8.com/?size=100&id=SsulSeBd6i35&format=png&color=000000" alt="" />
+                            <p>Coréia do Sul</p>
+                        </Link>
+                    </div>
+                </div>
+                
             </div>
         
-
         <h2 id="selecione">Selecione um país.</h2>
         </>
     )
