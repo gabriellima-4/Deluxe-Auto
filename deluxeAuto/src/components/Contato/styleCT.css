@@ -92,9 +92,6 @@
     }
 
     .gerais{
-        /* meti o louco mesmo, fodase */
-        margin-left: 92px;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
