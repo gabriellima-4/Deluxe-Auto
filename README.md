@@ -33,22 +33,3 @@ e mais...
     <li>react-router-dom</li>
     <li>react-simple-maps</li>
 </ul>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
-
-    *{
-        font-family: Arimo;
-    }
-
-    .titulo{
-        margin-bottom: 90px;
-    }
-
-    .titulo p{
-        font-size: 17px;
-        text-decoration: underline;
-        text-decoration-color: red;
-        text-decoration-thickness: 2px;
-    }
-</style>
