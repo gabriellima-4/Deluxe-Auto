@@ -92,6 +92,8 @@
     }
 
     .gerais{
+        /* Gambiarrinha de levis */
+        margin-left: 23%;
         display: flex;
         flex-direction: column;
         justify-content: center;
